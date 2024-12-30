@@ -39,6 +39,6 @@ alt='Nahiyan Ibn Ershad'
 
 <hr/>
 
-<a href="https://box-the-third.github.io/BelaCosmetics/" target="_blank">Visit our website</a>
+<a href="https://box-the-third.github.io/eCommerce-frontend/" target="_blank">Visit our website</a>
 
 
