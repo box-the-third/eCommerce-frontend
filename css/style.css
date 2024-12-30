@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #fff6f3; 
+    color: #735366; 
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+p{
+    font-family: "Belleza";
+    text-align: justify !important;
+}
+
+h3{
+    font-family: "Belleza";
+}
+
+/* a:hover{
+    background-color: #F8F8F8;
+    color: #000;
+} */
+
+.custom-button{
+    color: #000;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.custom-button:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+
+/*===================================================================================
+    1. Header section styles
+==============================================================================*/
+
+.navbar{
+    font-family: "Belleza";
+    background-color: #FAEEE9; 
+    color: #735366; 
+    border-bottom: 1px solid #C3C3D5; 
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1); 
+}
+
+
+.sticky-header {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.fixed-top {
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+}
+
+
+.sticky-header {
+    transition: top 0.3s;
+}
+
+.fixed-top {
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+}
+/* .main-title{
+    font-family: 'ICA Rubrik';
+    font-size: 30px;
+    margin-left: 10px;
+} */
+
+
+.main-title {
+    font-family: 'Belleza';
+    font-size: 27px;
+    margin-left: 10px;
+    font-weight: 900;
+    color: #735366; 
+}
+
+.nav-item a {
+    font-family: 'Belleza';
+    font-size: 17px;
+    color: #735366 !important; 
+    padding: 10px 15px;
+}
+
+.nav-item a:hover {
+    background-color: #A77A95; 
+    color: #FAEEE9 !important;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* .nav-item a {
+    font-family: 'ICA Rubrik';
+    font-size: 20px;
+}
+
+.nav-item a:hover{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.nav-link{
+    color: #000 !important;
+}
+
+
+/*===================================================================================
+    2. FREE SHIPPING
+==============================================================================*/
+
+.free-shipping{
+    background-color: rgb(245, 235, 255); 
+    padding: 5px;
+}
+
+.free-shipping-title{
+    text-align: center;
+    margin-top: 7px;
+}
+
+
+
+/*============================================================
+    3. LOGIN Section styles 
+==========================================================*/
+.login-container {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-box {
+    width: 100%;
+    max-width: 380px;
+    margin: 10px;
+    background-color: #fff6f3;
+}
+
+.signIn-btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    padding: 12px;
+    color:#fff6f3;
+    min-width: 120px;
+    font-size: 20px;
+}
+
+.signIn-btn:hover{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #F3D871;
+    padding: 12px;
+    color: #000;
+    min-width: 120px;
+    font-size: 20px;
+}
+
+.create-account-btn {
+    float: right;
+}
+.create-account-btn a{
+    color: #000000;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.create-account-btn a:hover{
+    color: #000;
+}
+  
+.create-account {
+    font-size: 14px;
+}
+
+/*============================================================
+    4.  SignUp Section styles 
+==========================================================*/
+.sign-up-section{
+    overflow: hidden;
+    display: block;
+}
+
+.signUp-container {
+    margin-top: 100px;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+.signUp-box {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+.create-btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    padding: 10px;
+    color: #FFFFFF;
+    min-width: 110px;
+    font-size: 20px;
+}
+.create-btn:hover{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #F3D871;
+    padding: 10px;
+    color: #000;
+    min-width: 110px;
+    font-size: 20px;
+}
+.login-text{
+    font-size: 18px;
+}
+
+.login-text:hover{
+    font-size: 18px;
+    color: #F7F7F8;
+}
+
+/*============================================================
+    5. Cart Section styles 
+==========================================================*/
+.cart-section{
+    overflow: hidden;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.table-td{
+    font-size: 20px;
+}
+
+.img-wrap img{
+    width: 100%;
+    height: 80px;
+}
+
+.cart-shopping-btn {
+    color: white !important;
+    background: #E04F54 !important;
+    margin-bottom: 10px !important;
+}
+
+.cart-checkout-btn {
+    color: #FFFFFF;
+    background: #000;
+    border-radius: 4px;
+}
+.cart-checkout-btn:hover{
+    background-color: #F3D871;
+    color: #000;
+    border-color: #F3D871;
+}
+
+/*============================================================
+    6. Checkout Section styles 
+==========================================================*/
+.checkout-section {
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}
+
+.checkout-total {
+    color: white !important;
+    background: #000 !important;
+    border-radius: 10px !important;
+}
+
+
+/*============================================================
+  7.  Order Complete styles 
+==========================================================*/
+.order-complete {
+    margin-top: 4rem;
+    margin-bottom: 14rem;
+}
+
+.invoice-btn{
+    color: #FFFFFF;
+    background: #000000 ;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.invoice-btn:hover{
+    color: #000;
+    background: #F3D871 ;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+/*===================================================================================
+  8.  Home Style CSS
+==============================================================================*/
+
+/* multi-benefit-solution */
+.multi-benefit-solution{
+    overflow: hidden;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.multi-benefit-title{
+    font-weight: bold;
+    text-align: center;
+    color: #735366; 
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-title p{
+    margin-top: 10px;
+    color: #735366; 
+    font-size: 18px;
+}
+
+.product-content img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-content img:hover {
+    transform: scale(1.05); 
+}
+
+.add-to-cart-btn{
+    font-family: "Belleza";
+    color: #735366; 
+    padding: 10px 20px;
+    border: 1px solid #735366; 
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffffff; 
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.add-to-cart-btn:hover{
+    background-color: #ffdff2; 
+    color: #000000; 
+    border-color: #A77A95;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+/*============================================================
+   9.  Production section styles 
+==========================================================*/
+
+.product-section{
+    overflow: hidden;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.product-list-title{
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/*============================================================
+    10. Product Details Section styles 
+==========================================================*/
+.product-details{
+    overflow: hidden;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.img-big-wrap img{
+    width: 100%; 
+    height: 614px;
+}
+
+.item-gallery img{
+    width: 80px; 
+    height:80px
+}
+
+.you-also-like{
+    margin-bottom: 150px;
+}
+
+.customer-reviews{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.modal-content{
+    background-color: #e8cddd;
+    color: #000000;
+}
+
+/*===================================================================================
+    400, 403, 500 section styles
+==============================================================================*/
+
+.bad-request,
+.permission-denied,
+.page-not-found,
+.server-error{
+    overflow: hidden;
+    display: block;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+/*===================================================================================
+    Search Page section styles
+==============================================================================*/
+.search-section{
+    overflow: hidden;
+    display: block;
+}
+
+.search-form{
+    height: 50px;
+    border-radius: 16px;
+}
+
+.search-btn {
+    height: 50px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: grey;
+    border-color: grey;
+}
+
+.no-result-found{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+
+
+/*===================================================================================
+                Footer section styles
+==============================================================================*/
+
+.footer{
+    overflow: hidden;
+    display: block;
+    background-color: #F7F7F8;
+    color: #000;
+}
+
+.contact-us{
+    margin: 20px;
+}
+
+.contact-us h4{
+    font-weight: bold;
+}
+
+
+.social{
+    overflow: hidden;
+    display: block;
+}
+
+
+.social a {
+    font-size: 14px;
+    color: #000000 !important;
+    text-decoration: none;
+    margin-right: 4px;
+    position: relative;
+}
+
+.fa-facebook-f, 
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin-in
+
+{
+    font-size: 14px;
+    padding: 8px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.fa-facebook-f:hover{
+    font-size: 14px;
+    padding: 8px;
+    background-color: gray;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.fa-twitter:hover{
+    font-size: 14px;
+    padding: 8px;
+    background-color: gray;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.fa-instagram:hover{
+    font-size: 14px;
+    padding: 8px;
+    background-color: gray;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+
+.fa-linkedin-in:hover{
+    font-size: 14px;
+    padding: 8px;
+    background-color: gray;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.social ul {
+    list-style-type: none; /* Removes bullets */
+    padding: 0;
+    margin: 0;
+}
+.social li {
+    display: inline;
+}
+
+/* help */
+.help{
+    margin: 20px;
+}
+
+.help h4{
+    font-weight: bold;
+}
+
+/* shop */
+.shop{
+    margin: 20px;
+}
+
+.shop h4{
+    font-weight: bold;
+}
+
+/* newsletter */
+.newsletter{
+    margin: 20px;
+}
+.newsletter h4{
+    font-weight: bold;
+}
+
+.newsletter-btn {
+    background-color: #000;
+    color: #FFFFFF;
+    padding: 10px;
+    min-width: 150px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.newsletter-btn:hover {
+    background-color: #F3D871;
+    color: #000;
+    border-color: #F3D871;
+}
+
+/*Review Section Added Styles*/
+.start i{
+    font-size: 15px;
+
+}
